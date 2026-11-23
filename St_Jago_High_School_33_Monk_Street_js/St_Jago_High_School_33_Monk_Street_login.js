@@ -1,4 +1,9 @@
-
+/*
+    Student Name: Towanda Marston
+    Student ID: 2505917
+    Course: CIT2011
+    Project: St. Jago High School Portal
+*/
 const loginForm = document.getElementById("loginForm");
 
 const userRole = document.getElementById("userRole");
@@ -68,3 +73,4 @@ loginForm.addEventListener("submit", function(event) {
     }
 
 });
+
