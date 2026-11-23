@@ -1,6 +1,7 @@
 /*
     Student Name: Jevauntae Grant 
     Student ID: 2505331
+    Faculty: BSc in Computing 
     Course: CIT2011
     Project: St. Jago High School Portal
 */
@@ -782,4 +783,5 @@ document.getElementById("reportCardDisplay").style.display = "none";
 loadFilterOptions();
 
 updateDashboard();
+
 
