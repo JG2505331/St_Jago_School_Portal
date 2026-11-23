@@ -1,4 +1,9 @@
-
+/*
+    Student Name: Damion Black
+    Student ID: 2507363
+    Course: CIT2011
+    Project: St. Jago High School Portal
+*/
 /* =========================================
    GENERAL AUTHORIZED VIEWER
    St. Jago High School Student Portal
@@ -458,3 +463,4 @@ document.getElementById("viewerStudentTableBody").addEventListener("click", (eve
 updateViewerDashboard();
 
 renderResults(students);
+
