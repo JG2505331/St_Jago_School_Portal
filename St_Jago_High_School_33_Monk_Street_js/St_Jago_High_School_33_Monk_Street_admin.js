@@ -1,4 +1,9 @@
-
+/*
+    Student Name: Ogechukwu Okorocha
+    Student ID: 2102118
+    Course: CIT2011
+    Project: St. Jago High School Portal
+*/
 // LOCAL STORAGE KEYS
 
 const STUDENT_KEY = "students";
@@ -878,3 +883,4 @@ function loadAdminDashboard() {
 
 // RUN DASHBOARD
 loadAdminDashboard();
+
