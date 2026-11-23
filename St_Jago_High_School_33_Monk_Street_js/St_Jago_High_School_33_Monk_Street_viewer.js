@@ -1,6 +1,7 @@
 /*
     Student Name: Damion Black
     Student ID: 2507363
+    Faculty: BSc in Computing 
     Course: CIT2011
     Project: St. Jago High School Portal
 */
@@ -463,4 +464,5 @@ document.getElementById("viewerStudentTableBody").addEventListener("click", (eve
 updateViewerDashboard();
 
 renderResults(students);
+
 
