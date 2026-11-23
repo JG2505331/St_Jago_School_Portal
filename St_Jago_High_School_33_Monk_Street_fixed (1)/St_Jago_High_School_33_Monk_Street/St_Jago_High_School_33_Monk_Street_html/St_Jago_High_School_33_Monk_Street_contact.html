@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | St. Jago High School</title>
+
+    <link rel="stylesheet" href= "../St_Jago_High_School_33_Monk_Street_css/St_Jago_High_School_33_Monk_Street_style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <div class="school-brand">
+
+            <img src="../St_Jago_High_School_33_Monk_Street_assets/St_Jago_High_School_33_Monk_Street_images/st-jago-crest.png"
+                 alt="St. Jago High School crest">
+
+            <div>
+                <h1>St. Jago High School</h1>
+                <p>Student Portal</p>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+
+        <a href="St_Jago_High_School_33_Monk_Street_index.html">Home</a>
+        <a href="St_Jago_High_School_33_Monk_Street_about.html">About Us</a>
+        <a href="St_Jago_High_School_33_Monk_Street_contact.html">Contact Us</a>
+        <a href="St_Jago_High_School_33_Monk_Street_login.html">Login</a>
+
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- PAGE INTRODUCTION -->
+        <section class="page-heading">
+
+            <h1>Contact Us</h1>
+
+            <p>
+                Get in touch with St. Jago High School for enquiries
+                and additional information.
+            </p>
+
+        </section>
+
+        <!-- CONTACT INFORMATION -->
+        <section id="contact-information">
+
+            <h2>School Information</h2>
+
+            <p>
+                <strong>School Name:</strong>
+                St. Jago High School
+            </p>
+
+            <p>
+                <strong>Address:</strong>
+                33 Monk Street, Spanish Town, St. Catherine, Jamaica
+            </p>
+
+            <p>
+                <strong>Telephone:</strong>
+                <a href="tel:+18769842265">876-984-2265</a>
+            </p>
+
+            <p>
+                <strong>Website:</strong>
+
+                <a href="https://www.stjago.com/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Official School Website
+                </a>
+
+            </p>
+
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section id="contact-form">
+
+            <h2>Send us a Message</h2>
+
+            <p>
+                Complete the form below to submit your enquiry.
+            </p>
+
+            <form id="messageForm">
+
+                <label for="fullname">Full Name</label>
+
+                <input type="text"
+                       id="fullname"
+                       name="fullname"
+                       placeholder="Enter your full name"
+                       required>
+
+                <label for="email">Email Address</label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email address"
+                       required>
+
+                <label for="subject">Subject</label>
+
+                <input type="text"
+                       id="subject"
+                       name="subject"
+                       placeholder="Enter the subject"
+                       required>
+
+                <label for="message">Message</label>
+
+                <textarea id="message"
+                          name="message"
+                          rows="6"
+                          placeholder="Write your message here"
+                          required></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+            <!-- SUBMISSION CONFIRMATION -->
+            <p id="formMessage"></p>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 St. Jago High School Student Portal.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- CONTACT FORM JAVASCRIPT -->
+    <script>
+
+        const messageForm = document.getElementById("messageForm");
+
+        const formMessage = document.getElementById("formMessage");
+
+        messageForm.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            // Display confirmation message
+            formMessage.textContent =
+                "Message submitted successfully! Thank you for contacting St. Jago High School.";
+
+            formMessage.style.color = "green";
+
+            // Clear the form
+            messageForm.reset();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
