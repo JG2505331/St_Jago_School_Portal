@@ -1,4 +1,9 @@
-
+/*
+    Student Name: Jevauntae Grant 
+    Student ID: 2505331
+    Course: CIT2011
+    Project: St. Jago High School Portal
+*/
 // ==========================================
 // TEACHER DASHBOARD
 // ==========================================
@@ -777,3 +782,4 @@ document.getElementById("reportCardDisplay").style.display = "none";
 loadFilterOptions();
 
 updateDashboard();
+
