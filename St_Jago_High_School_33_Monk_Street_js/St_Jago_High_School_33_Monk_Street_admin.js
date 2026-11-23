@@ -1,6 +1,7 @@
 /*
     Student Name: Ogechukwu Okorocha
     Student ID: 2102118
+    Faculty: BSc in Computer Information System  
     Course: CIT2011
     Project: St. Jago High School Portal
 */
@@ -883,4 +884,5 @@ function loadAdminDashboard() {
 
 // RUN DASHBOARD
 loadAdminDashboard();
+
 
